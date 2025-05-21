@@ -28,7 +28,7 @@ class QuizActivity : AppCompatActivity() {
         setContentView(R.layout.activity_quiz)
 
         // declarations
-        val questionText = findViewById<TextView>(R.id.showQuestion)
+        val questionText = findViewById<TextView>(R.id.questionText)
         val feedbackText = findViewById<TextView>(R.id.feedbackText)
         val nextButton = findViewById<Button>(R.id.nextButton)
         val trueButton = findViewById<Button>(R.id.trueButton)
