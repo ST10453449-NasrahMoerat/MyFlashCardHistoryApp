@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9E8E8E"
+    tools:context=".QuizActivity">
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="120dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="557dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="126dp"
+        android:backgroundTint="#523838"
+        android:text="Next"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.454"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/trueButton"
+        android:layout_width="114dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="419dp"
+        android:backgroundTint="#644545"
+        android:text="True"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/falseButton"
+        android:layout_width="111dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="256dp"
+        android:layout_marginTop="263dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="421dp"
+        android:backgroundTint="#523939"
+        android:text="False"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/feedbackText"
+        android:layout_width="297dp"
+        android:layout_height="137dp"
+        android:layout_marginStart="155dp"
+        android:layout_marginTop="377dp"
+        android:layout_marginEnd="155dp"
+        android:layout_marginBottom="335dp"
+        android:hint="Feedback"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.169" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="302dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="506dp"
+        android:hint="Question"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

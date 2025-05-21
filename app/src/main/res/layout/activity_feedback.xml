@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B39B9B"
+    tools:context=".feedback">
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="125dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="236dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="110dp"
+        android:backgroundTint="#5B4141"
+        android:text="Exit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="126dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="53dp"
+        android:layout_marginTop="568dp"
+        android:layout_marginEnd="232dp"
+        android:layout_marginBottom="110dp"
+        android:backgroundTint="#573C3C"
+        android:text="Review"
+        android:textColor="#FAF1F1"
+        android:textColorLink="#5D3E3E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
