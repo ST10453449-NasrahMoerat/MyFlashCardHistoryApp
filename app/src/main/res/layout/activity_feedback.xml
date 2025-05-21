@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/reviewButton"
         android:layout_width="126dp"
         android:layout_height="53dp"
         android:layout_marginStart="53dp"
@@ -39,5 +39,33 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/feedbackMessage"
+        android:layout_width="235dp"
+        android:layout_height="227dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="89dp"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="249dp"
+        android:hint="Feedback"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/scoreText"
+        android:layout_width="236dp"
+        android:layout_height="121dp"
+        android:hint="Score"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="342dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

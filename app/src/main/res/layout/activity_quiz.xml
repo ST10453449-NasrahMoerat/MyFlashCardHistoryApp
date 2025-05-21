@@ -60,24 +60,25 @@
 
     <TextView
         android:id="@+id/feedbackText"
-        android:layout_width="297dp"
-        android:layout_height="137dp"
-        android:layout_marginStart="155dp"
-        android:layout_marginTop="377dp"
-        android:layout_marginEnd="155dp"
-        android:layout_marginBottom="335dp"
+        android:layout_width="299dp"
+        android:layout_height="94dp"
+        android:layout_marginStart="56dp"
+        android:layout_marginTop="425dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="212dp"
         android:hint="Feedback"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.169" />
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/questionText"
         android:layout_width="302dp"
         android:layout_height="188dp"
         android:layout_marginStart="57dp"
