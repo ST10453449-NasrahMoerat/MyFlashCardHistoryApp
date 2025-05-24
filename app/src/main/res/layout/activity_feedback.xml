@@ -4,29 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#9D5640"
+    android:backgroundTint="#9D5640"
     tools:context=".feedback">
 
     <Button
         android:id="@+id/exitButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="179dp"
-        tools:layout_editor_absoluteY="409dp" />
+        android:layout_width="133dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#CAA4A4"
+        android:text="Exit"
+        tools:layout_editor_absoluteX="245dp"
+        tools:layout_editor_absoluteY="654dp" />
 
     <Button
         android:id="@+id/reviewButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="104dp"
-        tools:layout_editor_absoluteY="309dp" />
+        android:layout_width="139dp"
+        android:layout_height="58dp"
+        android:backgroundTint="#CAA4A4"
+        android:text="Review"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="654dp" />
 
     <TextView
         android:id="@+id/feedbackText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="167dp"
-        tools:layout_editor_absoluteY="143dp" />
+        android:layout_width="380dp"
+        android:layout_height="596dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="15dp"
+        android:text="Feedback"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
